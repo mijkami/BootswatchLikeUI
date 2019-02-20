@@ -2,7 +2,7 @@
 
 ## How to:
 
-Just download and check out by opening **index.html**, or directly look at the online version!
+Just download & unzip (or clone) it and check out by opening **index.html**, or directly look at the online version!
 
 ### Online version: 
 
