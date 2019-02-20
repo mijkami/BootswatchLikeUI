@@ -1,6 +1,6 @@
 # BootswatchLikeUI
 
-## How to :
+## How to:
 
 Just download and check out by opening **index.html**, or directly look at the online version!
 
