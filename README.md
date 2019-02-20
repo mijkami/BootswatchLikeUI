@@ -4,7 +4,9 @@
 
 Just download and check out by opening **index.html**, or directly look at the online version!
 
-### Online version: [https://mijkami.github.io/boo_UI/](https://mijkami.github.io/boo_UI/)
+### Online version: 
+
+[https://mijkami.github.io/boo_UI/](https://mijkami.github.io/boo_UI/)
 
 ### Sources:
 
