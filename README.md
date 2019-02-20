@@ -10,4 +10,4 @@ Just download & unzip (or clone) it and check out by opening **index.html**, or 
 
 ### Sources:
 
-Adaptation from the [Minty theme](https://bootswatch.com/minty/) from [Bootswatch](https://bootswatch.com) with a few adaptations.
+[Minty theme](https://bootswatch.com/minty/) from [Bootswatch](https://bootswatch.com) with a few adaptations.
