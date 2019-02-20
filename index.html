@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Eventlike UI</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="http://mlav.land/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
+	<a href="index.html" class="navbar-brand">Event</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Create a new event!</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item active">
+            <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
+              <a href="#" class="btn btn-outline-dark">Log in</a>
+              <a href="#" class="btn btn-outline-dark">Sign up</a>
+            </div>
+          </li>
+
+        </ul>
+        
+      </div>
+    </nav>
+
+<div class="container">
+
+<div class="row justify-content-around">
+  <div class="col-6">
+
+  <div class="list-group list-group-flush" style="margin-top: 5vh">
+
+    <a href="navbar.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Navbar</span>
+        <span class="lead"><span class="badge badge-secondary">Yes!</span></span>
+    </a>
+
+    <a href="footer.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Footer</span>
+        <span class="lead"><span class="badge badge-secondary">Top!</span></span>
+    </a>
+
+    <a href="authentification_form.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Authentification Form</span>
+        <span class="lead"><span class="badge badge-secondary">Nice!</span></span>
+    </a>
+
+    <a href="banner.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Banner</span>
+        <span class="lead"><span class="badge badge-secondary">Unbelievable!</span></span>
+    </a>
+
+    <a href="banner-small.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Banner (same, but smaller)</span>
+        <span class="lead"><span class="badge badge-secondary">Oh gosh!</span></span>
+    </a>
+
+    <a href="list-events.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">List of events</span>
+        <span class="lead"><span class="badge badge-secondary">Amazing!</span></span>
+    </a>
+
+    <a href="list-participants.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">List of participants</span>
+        <span class="lead"><span class="badge badge-secondary">Great!</span></span>
+    </a>
+
+    <a href="list-cities.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">List of cities</span>
+        <span class="lead"><span class="badge badge-secondary">Great again!</span></span>
+    </a>
+
+    <a href="pricing.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Pricing</span>
+        <span class="lead"><span class="badge badge-secondary">Give me money!</span></span>
+    </a>
+
+    <a href="event.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Event show</span>
+        <span class="lead"><span class="badge badge-secondary">Yeah!</span></span>
+    </a>
+
+    <a href="comments.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Comments</span>
+        <span class="lead"><span class="badge badge-secondary">Like it?</span></span>
+    </a>
+
+    <a href="left-right-presentation.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Left/right presentation</span>
+        <span class="lead"><span class="badge badge-secondary">Love it?</span></span>
+    </a>
+
+     <a href="three_cards.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        <span class="lead text-primary">Three cards presentation</span>
+        <span class="lead"><span class="badge badge-secondary">Last but not least</span></span>
+    </a>
+
+  </div>
+</div>
+</div>
+
+<br>
+<br><br>
+
+
+<h1 class="display-3 text-left" style="border-bottom: 1px solid #78C2AD">Minty UI Kit :</h1>
+
+<br><br>
+  
+  <!-- NAVBARS -->
+
+  <div class="bs-docs-section clearfix">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="navbars">Navbars</h1>
+            </div>
+
+            <div class="bs-component">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+
+            <div class="bs-component">
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+
+            <div class="bs-component">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- BUTTONS -->
+
+<div class="bs-docs-section">
+        <div class="page-header">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 id="buttons">Buttons</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+
+            <p class="bs-component">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-link">Link</button>
+            </p>
+
+            <p class="bs-component">
+              <button type="button" class="btn btn-primary disabled">Primary</button>
+              <button type="button" class="btn btn-secondary disabled">Secondary</button>
+              <button type="button" class="btn btn-success disabled">Success</button>
+              <button type="button" class="btn btn-info disabled">Info</button>
+              <button type="button" class="btn btn-warning disabled">Warning</button>
+              <button type="button" class="btn btn-danger disabled">Danger</button>
+              <button type="button" class="btn btn-link disabled">Link</button>
+            </p>
+
+            <p class="bs-component">
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-secondary">Secondary</button>
+              <button type="button" class="btn btn-outline-success">Success</button>
+              <button type="button" class="btn btn-outline-info">Info</button>
+              <button type="button" class="btn btn-outline-warning">Warning</button>
+              <button type="button" class="btn btn-outline-danger">Danger</button>
+            </p>
+
+            <div class="bs-component">
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-success">Success</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop2" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop2">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-info">Info</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop3" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop3">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-danger">Danger</button>
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+<br>
+            <div class="bs-component">
+              <button type="button" class="btn btn-primary btn-lg">Large button</button>
+              <button type="button" class="btn btn-primary">Default button</button>
+              <button type="button" class="btn btn-primary btn-sm">Small button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Typography -->
+      <br><br>
+
+      <div class="bs-docs-section">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="typography">Typography</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Headings -->
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h1>Heading 1</h1>
+              <h2>Heading 2</h2>
+              <h3>Heading 3</h3>
+              <h4>Heading 4</h4>
+              <h5>Heading 5</h5>
+              <h6>Heading 6</h6>
+              <h3>
+                Heading
+                <small class="text-muted">with muted text</small>
+              </h3>
+              <p class="lead">Pork loin t-bone jowl shankle. Shoulder swine biltong, pork chop beef.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>Example body text</h2>
+              <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+              <p><small>This line of text is meant to be treated as fine print.</small></p>
+              <p>The following is <strong>rendered as bold text</strong>.</p>
+              <p>The following is <em>rendered as italicized text</em>.</p>
+              <p>An abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
+            </div>
+
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <h2>Emphasis classes</h2>
+              <p class="text-muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+              <p class="text-primary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p class="text-secondary">Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+              <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+              <p class="text-danger">Donec ullamcorper nulla non metus auctor fringilla.</p>
+              <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+              <p class="text-info">Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Forms -->
+
+        <br>
+
+        <div class="bs-docs-section">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="forms">Forms</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="bs-component">
+              <form>
+                <fieldset>
+                  <legend>Legend</legend>
+                  <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleSelect1">Example select</label>
+                    <select class="form-control" id="exampleSelect1">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleSelect2">Example multiple select</label>
+                    <select multiple class="form-control" id="exampleSelect2">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleTextarea">Example textarea</label>
+                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputFile">File input</label>
+                    <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                    <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                  </div>
+                  <fieldset class="form-group">
+                    <legend>Radio buttons</legend>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Option one is this and that&mdash;be sure to include why it's great
+                      </label>
+                    </div>
+                    <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Option two can be something else and selecting it will deselect option one
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                    <label class="form-check-label">
+                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                        Option three is disabled
+                      </label>
+                    </div>
+                  </fieldset>
+                  <fieldset class="form-group">
+                    <legend>Checkboxes</legend>
+                    <div class="form-check">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked>
+                        Option one is this and that&mdash;be sure to include why it's great
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" disabled>
+                        Option two is disabled
+                      </label>
+                    </div>
+                  </fieldset>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1">
+
+            <form class="bs-component">
+              <div class="form-group">
+                <fieldset disabled>
+                  <label class="control-label" for="disabledInput">Disabled input</label>
+                  <input class="form-control" id="disabledInput" type="text" placeholder="Disabled input here..." disabled="">
+                </fieldset>
+              </div>
+
+              <div class="form-group">
+                <fieldset>
+                  <label class="control-label" for="readOnlyInput">Readonly input</label>
+                  <input class="form-control" id="readOnlyInput" type="text" placeholder="Readonly input here…" readonly>
+                </fieldset>
+              </div>
+
+              <div class="form-group has-success">
+                <label class="form-control-label" for="inputSuccess1">Valid input</label>
+                <input type="text" value="correct value" class="form-control is-valid" id="inputValid">
+                <div class="valid-feedback">Success! You've done it.</div>
+              </div>
+
+              <div class="form-group has-danger">
+                <label class="form-control-label" for="inputDanger1">Invalid input</label>
+                <input type="text" value="wrong value" class="form-control is-invalid" id="inputInvalid">
+                <div class="invalid-feedback">Sorry, that username's taken. Try another?</div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-form-label col-form-label-lg" for="inputLarge">Large input</label>
+                <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" id="inputLarge">
+              </div>
+
+              <div class="form-group">
+                <label class="col-form-label" for="inputDefault">Default input</label>
+                <input type="text" class="form-control" placeholder="Default input" id="inputDefault">
+              </div>
+
+              <div class="form-group">
+                <label class="col-form-label col-form-label-sm" for="inputSmall">Small input</label>
+                <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" id="inputSmall">
+              </div>
+
+              <div class="form-group">
+                <label class="control-label">Input addons</label>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text">$</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <div class="input-group-append">
+                      <span class="input-group-text">.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+
+            <div class="bs-component">
+              <fieldset>
+                <legend>Custom forms</legend>
+                <div class="form-group">
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input" checked>
+                    <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                    <label class="custom-control-label" for="customRadio2">Or toggle this other custom radio</label>
+                  </div>
+                  <div class="custom-control custom-radio">
+                    <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input" disabled>
+                    <label class="custom-control-label" for="customRadio3">Disabled custom radio</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                    <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+                  </div>
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck2" disabled>
+                    <label class="custom-control-label" for="customCheck2">Disabled custom checkbox</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1" checked>
+                    <label class="custom-control-label" for="customSwitch1">Toggle this switch element</label>
+                  </div>
+                  <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" disabled id="customSwitch2">
+                    <label class="custom-control-label" for="customSwitch2">Disabled switch element</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <select class="custom-select">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="custom-file">
+                      <input type="file" class="custom-file-input" id="inputGroupFile02">
+                      <label class="custom-file-label" for="inputGroupFile02">Choose file</label>
+                    </div>
+                    <div class="input-group-append">
+                      <span class="input-group-text" id="">Upload</span>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <br><br>
+
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="indicators">Indicators</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Alerts</h2>
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <h4 class="alert-heading">Warning!</h4>
+                <p class="mb-0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-success">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-info">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-primary">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-secondary">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="bs-component">
+              <div class="alert alert-dismissible alert-light">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Badges</h2>
+          <div class="bs-component" style="margin-bottom: 40px;">
+            <span class="badge badge-primary">Primary</span>
+            <span class="badge badge-secondary">Secondary</span>
+            <span class="badge badge-success">Success</span>
+            <span class="badge badge-danger">Danger</span>
+            <span class="badge badge-warning">Warning</span>
+            <span class="badge badge-info">Info</span>
+            <span class="badge badge-light">Light</span>
+            <span class="badge badge-dark">Dark</span>
+          </div>
+          <div class="bs-component">
+            <span class="badge badge-pill badge-primary">Primary</span>
+            <span class="badge badge-pill badge-secondary">Secondary</span>
+            <span class="badge badge-pill badge-success">Success</span>
+            <span class="badge badge-pill badge-danger">Danger</span>
+            <span class="badge badge-pill badge-warning">Warning</span>
+            <span class="badge badge-pill badge-info">Info</span>
+            <span class="badge badge-pill badge-light">Light</span>
+            <span class="badge badge-pill badge-dark">Dark</span>
+          </div>
+        </div>
+      </div>
+    </div>
+<br><br><br>
+
+      <div class="bs-docs-section">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 id="containers">Containers</h1>
+            </div>
+            <div class="bs-component">
+              <div class="jumbotron">
+                <h1 class="display-3">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+</div>
+
+<footer class="footer">
+        <span class="text-muted">Simple stuff</span>
+</footer>
+
+</body>
+</html>
